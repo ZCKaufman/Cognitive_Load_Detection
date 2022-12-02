@@ -72,6 +72,4 @@ void loop(void)
   Serial.print(", ");
   Serial.print(event.acceleration.z, 4);
   Serial.println("");
-  
-  delay(100);
 }
