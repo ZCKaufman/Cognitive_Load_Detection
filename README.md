@@ -1,5 +1,5 @@
 # Cognitive Load Detection
-** Introduction
+## Introduction
 This is the final project for Erin Seliger, Jay Amlani, Leigh Levinson, and Zachary Kaufman for ENGR-E 545 Wearable Sensors at Indiana University Bloomington. 
 
 For this project we created a cognitive load detection device to determine how fidgeting affects the stress of children working on complex tasks (such as math problems). We utilize a Grove Galvanic Skin Response (GSR) sensor to detect stress levels in the participant and an Inertial Measurement Unit (IMU) to detect fidgeting with the writing utensil provided to the participant. 
