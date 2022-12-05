@@ -71,4 +71,13 @@ For measuring cognitive load, we suggest recording data under five conditions:
 4. A challenging mathematics task that is tailored to the participant's math level that is UNTIMED 
 5. A challenging mathematics task that is tailored to the participant's math level that is TIMED (t = 3 minutes to complete the task)
 
+### Output
+Our code will output 9 data points in CSV format. The first line will be the labels, every line after that will be nine data points separated by commas. The data will have the following labels:
+
+10 Sample Average, Cumulative Sum, GSR Overall Average, Gyro X, Gyro Y, Gyro Z, Acc X, Acc Y, Acc Z
+
+The code will be output in a .txt file in the name/location that you specify when ou hit the "Start" button in CoolTerm.
+
+Note: On windows there are issues with trying to save to the desktop, I recommend if you are on Windows to save to somewhere in the Downloads or Documents folder. 
+
 
