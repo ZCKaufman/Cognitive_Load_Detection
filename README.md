@@ -64,13 +64,16 @@ Note: You can reset the output from the Arduino by hitting the red button on the
 
 ### Tasks 
 For measuring cognitive load, we suggest recording data under five conditions:
-1. a baseline task which includes recording the participant's name and having them write numbers 1 through 10. 
+1. A baseline task which includes recording the participant's name and having them write numbers 1 through 10. 
 2. An easy mathematics task that is tailored to the participant's math level that is UNTIMED 
 3. An easy mathematics task that is tailored to the participant's math level that is TIMED (t = 3 minutes to complete the task)
 4. A challenging mathematics task that is tailored to the participant's math level that is UNTIMED 
 5. A challenging mathematics task that is tailored to the participant's math level that is TIMED (t = 3 minutes to complete the task)
 
 ### Output
+
+Sampling Rate for GSR is 70 Hz - it is collecting ten samples before taking an average. IMU has a Sampling Rate of 100 Hz. Output is 7 datapoints per second (sample every 0.143 sec)
+
 Our code will output 9 data points in CSV format. The first line will be the labels, every line after that will be nine data points separated by commas. The data will have the following labels:
 
 10 Sample Average, Cumulative Sum, GSR Overall Average, Gyro X, Gyro Y, Gyro Z, Acc X, Acc Y, Acc Z
@@ -78,5 +81,8 @@ Our code will output 9 data points in CSV format. The first line will be the lab
 The code will be output in a .txt file in the name/location that you specify when ou hit the "Start" button in CoolTerm.
 
 Note: On windows there are issues with trying to save to the desktop, I recommend if you are on Windows to save to somewhere in the Downloads or Documents folder. 
+
+### Processing in Jupyter Notebook 
+Attached is a Jupyter notebook with preliminary visualizations of data. Before running through this code, manually open up the text file and remove the string of Values that indicated the beginning of a new test.[ex: Orientation Sensor TestOrientation Sensor Test10 Sample Average, Cumulative Sum, GSR Overall Average, Gyro X, Gyro Y, Gyro Z, Acc X, Acc Y, Acc Z] This is to make sure you are only analyzing the data from the condition intended.
 
 
