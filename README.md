@@ -83,6 +83,6 @@ The code will be output in a .txt file in the name/location that you specify whe
 Note: On windows there are issues with trying to save to the desktop, I recommend if you are on Windows to save to somewhere in the Downloads or Documents folder. 
 
 ### Processing in Jupyter Notebook 
-Attached is a Jupyter notebook with preliminary visualizations of data. Before running through this code, manually open up the text file and remove the string of Values that indicated the beginning of a new test.[ex: Orientation Sensor TestOrientation Sensor Test10 Sample Average, Cumulative Sum, GSR Overall Average, Gyro X, Gyro Y, Gyro Z, Acc X, Acc Y, Acc Z] This is to make sure you are only analyzing the data from the condition intended.
+Attached is a Jupyter notebook with preliminary visualizations of data. Before running through this code, manually open up the text file and remove the string of Values that indicated the beginning of a new test.[ex: Orientation Sensor TestOrientation Sensor Test10 Sample Average, Cumulative Sum, GSR Overall Average, Gyro X, Gyro Y, Gyro Z, Acc X, Acc Y, Acc Z] This is to make sure you are only analyzing the data from the condition intended. Some example data is provided as well for you to test out our file. To test different conditions, just update the textfile being run by the "to_dataframe" function. 
 
 
