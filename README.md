@@ -48,4 +48,15 @@ Note: You can reset the output from the Arduino by hitting the red button on the
 7. When you are finished collection data, click Connection > Capture to Text/Binary file > Stop
 
 ### Attaching the sensors
-1.
+1.The IMU should be secured to the participant's writing utensil towards the top. This was done with tape, but more secure methods are encouraged. Wires should be loose to prevent any disturbance to the connection with the Arduino Uno. 
+2. Have the participant slip on the two finger fabric "sleeves" of the GSR sensor on their non-dominant hand. Finger choice matters less, but be sure that the fabric has contact with the entire finger and ensure the participant is as comfortable as possible.
+
+###Tasks 
+For measuring cognitive load, we suggest recording data under five conditions:
+1. a baseline task which includes recording the participant's name and having them write numbers 1 through 10. 
+2. An easy mathematics task that is tailored to the participant's math level that is UNTIMED 
+3. An easy mathematics task that is tailored to the participant's math level that is TIMED (t = 3 minutes to complete the task)
+4. A challenging mathematics task that is tailored to the participant's math level that is UNTIMED 
+5. A challenging mathematics task that is tailored to the participant's math level that is TIMED (t = 3 minutes to complete the task)
+
+
