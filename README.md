@@ -19,16 +19,16 @@ Below are the instructions for setting up the device, running the code, collecti
 1. The IMU sensor requires that the following solder points have wires attached to them: 
 2. Connect those wires to the Arduino Uno in these spots:
   
-  ![image](https://user-images.githubusercontent.com/107963406/205525714-d5b1ef7e-7467-49ff-88d1-33261e368974.png)
+  <img src="https://user-images.githubusercontent.com/107963406/205525714-d5b1ef7e-7467-49ff-88d1-33261e368974.png" width="200px">
   (The white A0, yellow, and green wires are for GSR)
   
 3. The GSR sensor only requires use of its yellow (data), red (power), and black (ground) wire which is already attached.
 
-  ![image](https://user-images.githubusercontent.com/107963406/205525848-4c79115e-963d-48a6-a78a-4b2539461f2d.png)
+  <img src="https://user-images.githubusercontent.com/107963406/205525848-4c79115e-963d-48a6-a78a-4b2539461f2d.png" width="200px">
   
   Connect those wires to the Arduino Uno in these spots: 
   
-  ![image](https://user-images.githubusercontent.com/107963406/205525714-d5b1ef7e-7467-49ff-88d1-33261e368974.png)
+  <img src="https://user-images.githubusercontent.com/107963406/205525714-d5b1ef7e-7467-49ff-88d1-33261e368974.png" width="200px">
   (White A0 corresponds to data, yellow to power, and green to ground)
   
 4. Now connect the Arduino Uno to the computer you are doing data collection on
@@ -61,7 +61,9 @@ Note: You can reset the output from the Arduino by hitting the red button on the
 1.The IMU should be secured to the participant's writing utensil towards the top. This was done with tape, but more secure methods are encouraged. Wires should be loose to prevent any disturbance to the connection with the Arduino Uno. 
 2. Have the participant slip on the two finger fabric "sleeves" of the GSR sensor on their non-dominant hand. Finger choice matters less, but be sure that the fabric has contact with the entire finger and ensure the participant is as comfortable as possible.
 
-###Tasks 
+<img src="https://user-images.githubusercontent.com/107963406/205526588-235ccefc-44ab-45e0-ac57-48c21d14547d.png" width="200px">
+
+### Tasks 
 For measuring cognitive load, we suggest recording data under five conditions:
 1. a baseline task which includes recording the participant's name and having them write numbers 1 through 10. 
 2. An easy mathematics task that is tailored to the participant's math level that is UNTIMED 
